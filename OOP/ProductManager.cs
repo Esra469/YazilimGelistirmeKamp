@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YazilimGelistirmeKamp
+namespace OOP
 {
-    internal class Program
+     class ProductManager
     {
-        static void Main(string[] args)
+        //encapsulation
+        public void Add(Product product)
         {
-            Console.WriteLine("Hello word");
+
         }
     }
 }

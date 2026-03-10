@@ -38,7 +38,7 @@ namespace metotlar
                 Console.WriteLine("---------------------");
             }
 
-            Console.WriteLine("---------metotlar-------");
+            Console.WriteLine("---------Metotlar-------");
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
