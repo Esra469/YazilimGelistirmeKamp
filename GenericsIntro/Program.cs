@@ -13,6 +13,8 @@ namespace GenericsIntro
             MyList<string> isimler = new MyList<string>();//T olarak belirtildiği için bir type verilmeli
 
             isimler.Add("Engin");
+            Console.WriteLine(isimler.Length);
+
         }
     }
 }
