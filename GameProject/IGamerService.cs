@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameProject
 {
+    //managerin soyut alanı
     internal interface IGamerService
     {
         void Add(Gamer gamer);

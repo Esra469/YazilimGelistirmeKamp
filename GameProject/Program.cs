@@ -11,6 +11,16 @@ namespace GameProject
         static void Main(string[] args)
         {
 
+            GamerManager gamerManager = new GamerManager(new UserValidationManager());
+            gamerManager.Add(new Gamer 
+            { 
+                Id = 1, 
+                BirthYear = 1985,
+                FirstName = "Esra", 
+                LastName = "Çimen", 
+                IdentityNumber = 12345 
+            });
+
         }
     }
 }

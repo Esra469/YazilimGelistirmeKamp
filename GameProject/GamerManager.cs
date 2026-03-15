@@ -6,12 +6,27 @@ using System.Threading.Tasks;
 
 namespace GameProject
 {
+    //microservice
     //Hiçbir sınıf boş kalmamalı. Gamerservice somut kısmı 
     internal class GamerManager : IGamerService
     {
+        //Bir sınıf içinde yeni bir manager sınıf kullanacaksak asla onu new leme onun yerine constraction kullan
+        IUserValidationService _userValidationService;
+        public GamerManager(IUserValidationService userValidationService)
+        {
+            _userValidationService = userValidationService; 
+        }
         public void Add(Gamer gamer)
         {
-            Console.WriteLine("Kayıt oldu");
+            if (_userValidationService.Validation(gamer) == true)
+            {
+                   Console.WriteLine("Kayıt oldu");
+            }
+            else
+            {
+                Console.WriteLine("Doğrulama başarısız.Kayıt başarısız");
+            }
+            
         }
 
         public void Delete(Gamer gamer)
