@@ -1,7 +1,8 @@
-Yazılım Geliştirme Kampı Çalışmaları
-Bu repo, yazılım geliştirme sürecinde temel ve ileri seviye programlama kavramlarını pekiştirmek amacıyla hazırladığım projeleri ve ders notlarını içermektedir. Ağırlıklı olarak C# ve SQL kullanılarak geliştirilen bu çalışmalar, temiz kod yazımı ve nesne yönelimli programlama (OOP) prensiplerine odaklanmaktadır.
+# Yazılım Geliştirme Kampı Çalışmaları
 
-Proje İçeriği
+Bu depo, **C#** ve **MSSQL** teknolojilerini kullanarak modern yazılım geliştirme tekniklerini öğrendiğim ve uyguladığım bir eğitim günlüğüdür. Proje, temel programlama mantığından başlayarak kurumsal mimarilerin temellerine kadar uzanan geniş bir yelpazeyi kapsar.
+
+## Proje İçeriği
 Repo içerisinde yer alan ana konu başlıkları ve projeler:
 
 *GameProject* : Interface, abstract sınıflar ve mernis doğrulaması gibi gerçek hayat senaryolarını içeren bir oyun satış simülasyonu.
@@ -14,10 +15,10 @@ Repo içerisinde yer alan ana konu başlıkları ve projeler:
 
 *SQL Sorguları*: Veritabanı yönetimi için yazılmış T-SQL betikleri (Tablo oluşturma, Join işlemleri, Gruplama vb.).
 
-🛠 Kullanılan Teknolojiler
-Dil: C# (.NET)
+## 🛠 Kullanılan Teknolojiler
+#### Dil: C# (.NET)
 
-Veritabanı: MSSQL (T-SQL)
+#### Veritabanı: MSSQL (T-SQL)
 
-Geliştirme Ortamı: Visual Studio
+#### Geliştirme Ortamı: Visual Studio
 
